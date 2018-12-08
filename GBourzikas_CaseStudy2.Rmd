@@ -266,7 +266,7 @@ LogRegOnly <-confusionMatrix(table(pred=dfTrain,true=emp_test$Attrition))
 LogRegOnly
 fourfoldplot(LogRegOnly$table)
 
-#Predict for Doctor Bivin
+#Predict for Doctor Bivin - WHAMMMMooooooo
 dfPreds = data.frame(emp_test$ID,dfTrain)
 colnames(dfPreds) = c("ID","Prediction")
 dfPreds
@@ -379,7 +379,7 @@ SummaryT  %>%  kable() %>% kable_styling(bootstrap_options = "striped", full_wid
 #colnames(dfPreds) = c("ID","Prediction")
 #dfPreds
 
-write.csv(dfPreds,file = "LabelPrediction.csv",row.names = FALSE)
+#write.csv(dfPreds,file = "LabelPrediction.csv",row.names = FALSE)
 
 
 ```
