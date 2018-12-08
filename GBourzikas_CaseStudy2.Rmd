@@ -385,5 +385,5 @@ SummaryT  %>%  kable() %>% kable_styling(bootstrap_options = "striped", full_wid
 ```
 
 ## Appendix - Reference Materal
-*  YouTube Video - https://youtu.be/rxwRVtqBHp0
+*  YouTube Video - https://youtu.be/pCoR0GhwRO4
 *  Project Files - https://github.com/gbourzikas/Project2_Attrition
